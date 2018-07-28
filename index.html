@@ -18,6 +18,10 @@
   <p>Name : <input type="text" ng-model="name"></p><!-- ng-model directive binds the value of HTML controls aka. HTML inputs to application data -->
   <p ng-bind="name"></p><!-- I can bind the application data(the ng-model named "name") to a particular HTML tag using ng-bind! -->
   <h1>Input : {{name}}</h1><!-- {{ expression goes within double curly braces.}}-->
+  <p>
+    Devname: <span ng-bind="devname"></span>, <br /> 
+    HostedOn: <span ng-bind="hostedOn"></span>
+  </p>
 </div>
 
 </body>
