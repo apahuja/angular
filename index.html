@@ -17,7 +17,7 @@
 <div ng-app="" ng-init="devname='Ankur Pahuja'; hostedOn='Github'"><!-- The directive ng-app initializes the Angular App -->
   <p>Name : <input type="text" ng-model="name"></p><!-- ng-model directive binds the value of HTML controls aka. HTML inputs to application data -->
   <p ng-bind="name"></p><!-- I can bind the application data(the ng-model named "name") to a particular HTML tag using ng-bind! -->
-  <h1>Hello {{name}}</h1>
+  <h1>Input : {{name}}</h1><!-- {{ expression goes within double curly braces.}}-->
 </div>
 
 </body>
