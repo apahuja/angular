@@ -14,7 +14,7 @@
     - it binds data to HTML using javascirpt 'expressions'
 
 -->
-<div ng-app=""><!-- The directive ng-app initializes the Angular App -->
+<div ng-app="" ng-init="devname='Ankur Pahuja'; hostedOn='Github'"><!-- The directive ng-app initializes the Angular App -->
   <p>Name : <input type="text" ng-model="name"></p><!-- ng-model directive binds the value of HTML controls aka. HTML inputs to application data -->
   <p ng-bind="name"></p><!-- I can bind the application data(the ng-model named "name") to a particular HTML tag using ng-bind! -->
   <h1>Hello {{name}}</h1>
