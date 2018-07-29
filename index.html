@@ -31,7 +31,7 @@ The directive ng-app initializes the Angular App.
 As long as we put a semi-colon after initializing each variable, we dont have to stick to a single line only ! 
 -->
   <p>Name : <input type="text" ng-model="name"></p><!-- ng-model directive binds the value of HTML controls aka. HTML inputs to application data /application variable . here the variable name is bound to this input ! -->
-  <p ng-bind="name"></p><!-- I can bind the application data(the ng-model named "name") to a particular HTML tag using ng-bind! -->
+  <!-- <p ng-bind="name"></p>--><!-- I can bind the application data(the ng-model named "name") to a particular HTML tag using ng-bind! -->
   <h1>Input : {{name}}</h1><!-- {{ expression goes within double curly braces.}}-->
   <p>App Style : <input type="textarea" style="width:575px; padding:5px;" ng-model="style"></p>
   <p>
