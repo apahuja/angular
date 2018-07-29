@@ -25,6 +25,7 @@
 
     devname='Ankur Pahuja';
     hostedOn='Github';
+    Git_repo_url='https://github.com/apahuja/angular.git';
 
 " style="{{style}}"><!--
 The directive ng-app initializes the Angular App.
@@ -36,7 +37,8 @@ As long as we put a semi-colon after initializing each variable, we dont have to
   <p>App Style : <input type="textarea" style="width:575px; padding:5px;" ng-model="style"></p>
   <p>
     Devname: <span ng-bind="devname"></span>, <br /> 
-    HostedOn: <span>{{ hostedOn }}</span> <!-- can use ng-bind='expression' directive or use {{ expression }} -->
+    HostedOn: <span>{{ hostedOn }}</span> <!-- can use ng-bind='expression' directive or use {{ expression }} -->, <br />
+    Git repo URL: <span>{{ Git_repo_url }}</span>
   </p>
 </div>
 
